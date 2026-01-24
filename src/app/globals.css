@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
+/* 1. Theme Variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --nav-bg: rgba(255, 255, 255, 0.85); /* Increased opacity for less blur work */
+  --nav-border: rgba(0, 0, 0, 0.1);
 }
 
-@theme inline {
+:root.dark {
+  --background: #050505;
+  --foreground: #ffffff;
+  --nav-bg: rgba(5, 5, 5, 0.85); /* Increased opacity for less blur work */
+  --nav-border: rgba(255, 255, 255, 0.1);
+}
+
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 2. Base Styles */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* Removed the global color transition on body as it causes lag on every scroll */
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+/* 3. Performance Utilities */
+
+/* Use this to force GPU rendering */
+.will-change-transform {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* 4. Scrollbar Aesthetics (Optional but clean) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
 }
