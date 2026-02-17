@@ -14,7 +14,7 @@ export default function Footer() {
         {/* LEFT: Copyright & Build Info */}
         <div className="flex flex-col items-center md:items-start text-[10px] font-mono text-zinc-400 uppercase tracking-widest gap-1">
           <span>© 2026 Sarfaraz Shaikh</span>
-          <span className="opacity-50">Build v1.0 // Next.js</span>
+          <span className="opacity-50">Build v1.1 // Next.js</span>
         </div>
 
         {/* CENTER: System Status Indicator */}

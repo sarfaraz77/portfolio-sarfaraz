@@ -37,8 +37,6 @@ export default function Projects() {
               {/* PIXEL PHONE FRAME: Punch-Hole Camera */}
               <div className="relative w-45 md:w-50 aspect-9/19 rounded-3xl border-4 border-zinc-900 bg-black overflow-hidden shadow-xl">
                 
-                {/* Punch-Hole Camera (Pixel Style) */}
-                <div className="absolute top-3 left-1/2 -translate-x-1/2 w-3 h-3 bg-black rounded-full z-20 border border-zinc-800"></div>
                 
                 <div className="w-full h-full bg-zinc-800 relative">
                    <video
@@ -48,7 +46,7 @@ export default function Projects() {
                      playsInline // Critical for iOS to prevent fullscreen
                      className="w-full h-full object-cover opacity-top scale-[1.03] opacity-90"
                    >
-                     <source src="/projects/lemon.mp4" type="video/mp4" />
+                     <source src="/projects/breathe.mp4" type="video/mp4" />
                      Your browser does not support the video tag.
                    </video>
                    
@@ -87,13 +85,10 @@ export default function Projects() {
             <div className="flex-grow flex justify-center items-center py-2 bg-zinc-200/50 dark:bg-black/20 rounded-2xl border border-black/5 dark:border-white/5">
                 {/* PIXEL PHONE FRAME */}
                 <div className="relative group/phone w-[180px] md:w-[200px] aspect-[9/19] rounded-[1.5rem] border-[4px] border-zinc-900 bg-black overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.02]">
-                   
-                   {/* Punch-Hole Camera */}
-                   <div className="absolute top-3 left-1/2 -translate-x-1/2 w-3 h-3 bg-black rounded-full z-20 border border-zinc-800"></div>
 
                    <div className="w-full h-full overflow-x-auto snap-x snap-mandatory flex scrollbar-hide">
                       <div className="snap-center w-full h-full shrink-0 relative bg-blue-500">
-                        <Image src="/projects/dice.webp" alt="Screen 1" fill className="object-cover" />
+                        <Image src="/projects/heroes.jpg" alt="Screen 1" fill className="object-cover" />
                       </div>
                       {/* <div className="snap-center w-full h-full flex-shrink-0 relative bg-purple-500">
                         <Image src="/screen_1.png" alt="Screen 2" fill className="object-cover" />

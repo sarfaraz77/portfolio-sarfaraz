@@ -11,8 +11,11 @@ import Footer from "../../components/Footer";
 // ... (Keep your ALL_PROJECTS array and Variants here exactly as before) ...
 const ALL_PROJECTS = [
   // ... keep existing data
-  { id: 1, title: "GeoCam App", category: "Utility", image: "/skills/kotlin.svg", desc: "GPS-tagged photo capture tool.", link: "https://github.com/sarfaraz77" },
+  { id: 1, title: "BreatheBetter App", category: "Well Being", image: "/skills/breathebetter.webp", desc: "Asthma Control tips", link: "https://github.com/sarfaraz77/BreatheBetter" },
+  { id: 1, title: "Superheroes List", category: "Entertainment", image: "/skills/heroes.webp", desc: "List of Superheroes & their super powers", link: "https://github.com/sarfaraz77/superheroes-app" },
+  { id: 1, title: "Car Collection", category: "Entertainment", image: "/skills/kotlin.svg", desc: "List of cars", link: "https://github.com/sarfaraz77/car-collection-app" },
   { id: 2, title: "Lemonade App", category: "Demo", image: "/skills/lemons.svg", desc: "Offline-first KMP retail module.", link: "https://github.com/sarfaraz77/lemonade_app" },
+  { id: 1, title: "GeoCam App (Under Development)", category: "Utility", image: "/skills/kotlin.svg", desc: "GPS-tagged photo capture tool.", link: "https://github.com/sarfaraz77/" },
 ]
 const containerVariants = {
   hidden: { opacity: 0 },

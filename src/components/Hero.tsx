@@ -70,7 +70,7 @@ export default function Hero() {
       {/* - Desktop: 'md:absolute md:bottom-10 md:mt-0' - Returns to the corner on PC */}
       <div className="mt-20 md:mt-0 md:absolute md:bottom-10 md:left-6 flex items-center gap-2 text-[10px] font-mono text-zinc-400 uppercase tracking-widest opacity-50 z-10 animate-fade-in" style={{ animationDelay: "1s" }}>
         <Terminal size={13} />
-        <span>Sarfaraz Shaikh - V1.0</span>
+        <span>Sarfaraz Shaikh - V1.1</span>
       </div>
 
       <style jsx>{`

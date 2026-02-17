@@ -13,25 +13,26 @@ const SKILL_SECTIONS = [
       { name: "Material 3", category: "UI", icon: "/skills/material.svg" },
     ]
   },
-  {
-    title: "Architecture & Data",
-    skills: [
-      { name: "MVVM", category: "Architecture", icon: "/skills/kotlin.svg" },
-      { name: "UDF", category: "State Mngmt", icon: "/skills/kotlin.svg" },
-      { name: "Coroutines", category: "concurrency", icon: "/skills/coroutine.svg" },
-      { name: "Flow", category: "reactive streams", icon: "/skills/kotlin.svg" },
-      { name: "DataStore", category: "Preferences", icon: "/skills/kotlin.svg" },
-      { name: "Room", category: "Local Database", icon: "/skills/room.svg" },
-      { name: "Hilt", category: "Dependency Inj.", icon: "/skills/kotlin.svg" },
-    ]
-  },
+  // {
+  //   title: "Architecture & Data",
+  //   skills: [
+
+  //   ]
+  // },
   {
     title: "Currently Exploring",
     skills: [
+            { name: "MVVM", category: "Architecture", icon: "/skills/kotlin.svg" },
+      { name: "UDF", category: "State Mngmt", icon: "/skills/kotlin.svg" },
+      // { name: "Coroutines", category: "concurrency", icon: "/skills/coroutine.svg" },
+      // { name: "Flow", category: "reactive streams", icon: "/skills/kotlin.svg" },
+      // { name: "DataStore", category: "Preferences", icon: "/skills/kotlin.svg" },
+      { name: "Room", category: "Local Database", icon: "/skills/room.svg" },
+      // { name: "Hilt", category: "Dependency Inj.", icon: "/skills/kotlin.svg" },
       { name: "KMP", category: "Shared Biz Logic", icon: "/skills/kmp.svg" },
-      { name: "Ktor", category: "Networking", icon: "/skills/ktor.svg" },
-      { name: "CI/CD", category: "DevOps", icon: "/skills/cicd.svg" },
-      { name: "Modularization", category: "App Structure", icon: "/skills/kotlin.svg" },
+      // { name: "Ktor", category: "Networking", icon: "/skills/ktor.svg" },
+      // { name: "CI/CD", category: "DevOps", icon: "/skills/cicd.svg" },
+      // { name: "Modularization", category: "App Structure", icon: "/skills/kotlin.svg" },
       { name: "Testing", category: "Unit & UI", icon: "/skills/kotlin.svg" },
     ]
   }
