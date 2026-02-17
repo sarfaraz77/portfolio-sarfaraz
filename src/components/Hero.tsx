@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-3 px-3 py-1 rounded-full border border-black/15 dark:border-white/15 bg-black/6 dark:bg-white/6 mb-10">
             <span className="w-2 h-2 rounded-full bg-[#1bb35f] animate-pulse" />
             <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-800 dark:text-zinc-100">
-              Open to remote Android roles
+              Open to Software Engineering Roles
             </span>
           </div>
         </div>

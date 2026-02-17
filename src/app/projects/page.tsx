@@ -50,7 +50,7 @@ export default function ProjectsPage() {
             className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-zinc-500 hover:text-black dark:hover:text-white transition-colors"
           >
             <ArrowLeft size={16} />
-            Return to Base
+            Home
           </Link>
         </motion.div>
 
@@ -62,10 +62,10 @@ export default function ProjectsPage() {
           className="mb-16"
         >
           <h1 className="text-4xl md:text-6xl font-black text-black dark:text-white mb-4">
-            System Archive
+            Projects
           </h1>
           <p className="text-zinc-600 dark:text-zinc-400 max-w-2xl text-lg">
-            A complete repository of deployed applications, architectural experiments, and open-source contributions.
+            A repository of deployed applications, architectural experiments, and open-source contributions.
           </p>
         </motion.div>
 

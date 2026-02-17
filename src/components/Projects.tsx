@@ -14,21 +14,18 @@ export default function Projects() {
           </h3>
         </div>
 
-        {/* PROJECTS CONTAINER */}
+
         <div className="flex flex-col md:flex-row gap-4 mb-10">
-          
-          {/* ==============================================
-              PROJECT 1: Main Focus (60% Width)
-             ============================================== */}
+
           <div className="w-full md:w-[60%] flex flex-col p-5 md:p-5 rounded-3xl bg-linear-to-br from-green-300/10 to-green-300/5 dark:from-green-300/10 dark:to-zinc-900/10 border border-black/5">
             
             {/* Title & Subtitle */}
             <div className="mb-4 h-14 md:h-16 flex flex-col justify-center">
               <h4 className="text-xl md:text-2xl font-black text-black dark:text-white mb-1">
-                Digital Lemonade 
+                BreatheBetter App  
               </h4>
               <p className="text-xs md:text-sm font-medium text-zinc-500 dark:text-zinc-400">
-                Kotlin & Compose
+                Kotlin | Compose | Material 3
               </p>
             </div>
 
@@ -60,31 +57,29 @@ export default function Projects() {
             {/* Summary */}
             <div className="mt-4 pt-4 border-t border-black/5 dark:border-white/5">
               <p className="text-xs md:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                Simple App made using <strong>Kotlin & Jetpack Compose.</strong> 
+                App for Asthma control Tips
               </p>
             </div>
           </div>
 
-          {/* ==============================================
-              PROJECT 2: Secondary (40% Width)
-             ============================================== */}
+
          <div className="w-full md:w-[40%] flex flex-col p-5 md:p-5 rounded-3xl bg-linear-to-br from-green-300/[0.08] to-green-300/5 dark:from-green-300/10 dark:to-zinc-900/10 border border-black/5">
             
             {/* Title & Subtitle (Moved to TOP for alignment) */}
             <div className="mb-4 h-14 md:h-16 flex flex-col justify-center">
                {/* INCREASED SIZE: Matching Project 1 */}
                <h4 className="text-xl md:text-2xl font-black text-black dark:text-white mb-1">
-                 Dice Roll App
+                 Superheroes List
                </h4>
                <p className="text-xs md:text-sm font-medium text-zinc-500 dark:text-zinc-400">
-                 Kotlin and Compose
+                 Kotlin | Compose | Material 3
                </p>
             </div>
 
             {/* Phone Container */}
             <div className="flex-grow flex justify-center items-center py-2 bg-zinc-200/50 dark:bg-black/20 rounded-2xl border border-black/5 dark:border-white/5">
                 {/* PIXEL PHONE FRAME */}
-                <div className="relative group/phone w-[180px] md:w-[200px] aspect-[9/19] rounded-[1.5rem] border-[4px] border-zinc-900 bg-black overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.02]">
+                <div className="relative group/phone w-45 md:w-50 aspect-9/19 rounded-3xl border-4 border-zinc-900 bg-black overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.02]">
 
                    <div className="w-full h-full overflow-x-auto snap-x snap-mandatory flex scrollbar-hide">
                       <div className="snap-center w-full h-full shrink-0 relative bg-blue-500">
